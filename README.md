@@ -1,7 +1,6 @@
 
 <h1>Simple HTTP server in C</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
 Project consists of a single‑threaded HTTP server in plain C that reads its port from port.txt, binds to 127.0.0.1, and handles a handful of built‑in routes plus file serving. Incoming requests are parsed into a fixed 4 KB buffer, then dispatched to     /ping (returns “pong”), /echo (mirrors the request body back), POST /write and GET /read (write to and read from a simple in‑memory buffer), or GET /<filename> (streams that file with correct Content-Length).
