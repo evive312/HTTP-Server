@@ -17,9 +17,9 @@ Errors (400, 404, 413) are handled with minimal headers, connections are closed 
 <h2>Environments Used </h2>
 
 - <b>Ubuntu 24</b>
-
-<h2>Program walk-through:</h2>
 <!--
+<h2>Program walk-through:</h2>
+
 <p align="center">
 Launch the utility: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
